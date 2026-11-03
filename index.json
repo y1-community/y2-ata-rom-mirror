@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:20:29Z",
+  "generated_at": "2026-11-03T15:38:27Z",
   "source_repo": "y1-community/y2-ata-rom",
   "mirror_repo": "y1-community/y2-ata-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,47 @@
       "layout": "beside_app"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "y2-ata",
+      "title": "Portable Flashing Package: Engineering Firmware for Innioasis Y2 (Android 4.4 AOSP base - MT6582))",
+      "source_title": "Engineering Firmware for Innioasis Y2 (Android 4.4 AOSP base - MT6582))",
+      "source_url": "https://github.com/y1-community/y2-ata-rom/releases/tag/y2-ata",
+      "published_at": "2026-06-22T11:27:11Z",
+      "prerelease": false,
+      "source_notes": "# This is a bare android firmware for modifications to the Innioasis Y2 - it includes flash_tool.exe to install it from Windows systems\r\n# This is not suitable for everyday use - the original firmware is [available here](https://github.com/y1-community/y1-stock-rom/releases/tag/3.1.7)\r\nDisconnect your Y2 from USB, fully power it off using a paper clip or pin between the headphone jack and charging port\r\n\r\nRun flash_tool.exe\r\n\r\nSelect Format All + Download from the dropdown that reads \"Download\"\r\n\r\nClick Download (green arrow)\r\n\r\nConnect your Y2 and wait for install to finish.",
+      "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 823659033,
+          "sha256": "f4078889d524c300095b12ddfd2660ad6c6ab99cd7ef5d867bfdc63a4d51251f",
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 1000518195,
+          "sha256": "11920e5837da99499de3c1aba0fbb1bf2d041fc2cd45c79c56a8a13e7c27969d",
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 840213628,
+          "sha256": "ef2a75f6186aa2108b62ebe6526d0672c57fd4c32d13e1a505f245c06d6c01ff",
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
