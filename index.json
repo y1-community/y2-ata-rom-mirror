@@ -1,25 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T21:16:50Z",
+  "generated_at": "2026-11-04T21:28:13Z",
   "source_repo": "y1-community/y2-ata-rom",
   "mirror_repo": "y1-community/y2-ata-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
-    {
-      "key": "windows",
-      "os": "windows",
-      "arch": "x86-64",
-      "suffix": "-windows.zip",
-      "layout": "sp_flash_tool"
-    },
-    {
-      "key": "windows-arm64",
-      "os": "windows",
-      "arch": "arm64",
-      "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool"
-    },
     {
       "key": "linux",
       "os": "linux",
@@ -39,7 +25,21 @@
       "os": "macos",
       "arch": "universal",
       "suffix": "-macos.zip",
-      "layout": "beside_app"
+      "layout": "beside_dmg"
+    },
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool"
     }
   ],
   "releases": [
