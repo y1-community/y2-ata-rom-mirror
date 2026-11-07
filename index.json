@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T15:47:10Z",
+  "generated_at": "2026-11-07T19:37:02Z",
   "source_repo": "y1-community/y2-ata-rom",
   "mirror_repo": "y1-community/y2-ata-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -59,7 +59,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 680265217,
-          "sha256": "04afb20902635667007ae0a00b87502cf86e40e430d47515c9e9dab82eb65e90",
+          "sha256": "d5532f7f95a9cec385d7e5e0e9d09f12c9b11d871c4e1ebe1876a38064995355",
           "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux.zip"
         },
         {
@@ -69,7 +69,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 538950234,
-          "sha256": "4e65bf1bf4bea7bea22d5961c464bc2a00386bbf171a960fb4f1d0664734d7f9",
+          "sha256": "511b98381e98ee3cf3b25681a0cc803724c36d22fe8e46d53e233e16c0789e9f",
           "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-macos.zip"
         },
         {
@@ -78,8 +78,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 564422145,
-          "sha256": "2dd525fea4bdf4467ec23c7a3198051c1cca71c1851068bcf67f167d86ca7b15",
+          "size": 541074064,
+          "sha256": "4e95f52d2472c95351601da5673607e6ccd19068882c5bb4d8ae2abd782f7f28",
           "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-windows.zip"
         }
       ],
