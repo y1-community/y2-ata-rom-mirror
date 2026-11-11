@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T14:12:12Z",
+  "generated_at": "2026-11-11T21:38:32Z",
   "source_repo": "y1-community/y2-ata-rom",
+  "source_fallback_repo": "ryan-specter/y2-ata-rom",
   "mirror_repo": "y1-community/y2-ata-rom-mirror",
+  "mirror_fallback_repo": "ryan-specter/y2-ata-rom-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/y2-ata-rom-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: Engineering Firmware for Innioasis Y2 (Android 4.4 AOSP base - MT6582))",
       "source_title": "Engineering Firmware for Innioasis Y2 (Android 4.4 AOSP base - MT6582))",
       "source_url": "https://github.com/y1-community/y2-ata-rom/releases/tag/y2-ata",
+      "source_fallback_url": "https://github.com/ryan-specter/y2-ata-rom/releases/tag/y2-ata",
       "published_at": "2026-06-22T11:27:11Z",
       "prerelease": false,
       "source_notes": "# This is a bare android firmware for modifications to the Innioasis Y2 - it includes flash_tool.exe to install it from Windows systems\r\n# This is not suitable for everyday use - the original firmware is [available here](https://github.com/y1-community/y1-stock-rom/releases/tag/3.1.7)\r\nDisconnect your Y2 from USB, fully power it off using a paper clip or pin between the headphone jack and charging port\r\n\r\nRun flash_tool.exe\r\n\r\nSelect Format All + Download from the dropdown that reads \"Download\"\r\n\r\nClick Download (green arrow)\r\n\r\nConnect your Y2 and wait for install to finish.",
@@ -73,7 +85,8 @@
           "type": "Stock",
           "size": 661571626,
           "sha256": "f3a97200a2086f9428c0871fbd1e77aa76e8debbae79ef09e60207ab6ebcf607",
-          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux.zip"
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-linux-arm64.zip",
@@ -83,7 +96,8 @@
           "type": "Stock",
           "size": 486476568,
           "sha256": "2b0db1ed8a300bb99ff8b7ab5cc16f16555d289f0480fd8f758a32f2f47109e3",
-          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux-arm64.zip"
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-linux-arm64.zip"
         },
         {
           "name": "rom_y2-macos.zip",
@@ -93,7 +107,8 @@
           "type": "Stock",
           "size": 413717766,
           "sha256": "f7f0ff43d079169c110f5d0ea492f0eaf9e411efbc0257bd6bde765b624d81a5",
-          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-macos.zip"
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-macos.zip"
         },
         {
           "name": "rom_y2-windows.zip",
@@ -103,7 +118,8 @@
           "type": "Stock",
           "size": 528191830,
           "sha256": "0bd21ea77cb00fe488662f478a3301afa265fc4c7fd0278c1a2eee0c544f2165",
-          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-windows.zip"
+          "url": "https://github.com/y1-community/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/y2-ata-rom-mirror/releases/download/y2-ata/rom_y2-windows.zip"
         }
       ],
       "original_assets": [
